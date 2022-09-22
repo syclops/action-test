@@ -1,0 +1,6 @@
+[submodule "dependencies/bats/bats-assert"]
+	path = dependencies/bats/bats-assert
+	url = git@github.com:bats-core/bats-assert.git
+[submodule "dependencies/bats/bats-support"]
+	path = dependencies/bats/bats-support
+	url = git@github.com:bats-core/bats-support.git
