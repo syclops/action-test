@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - "win"
+  workflow_dispatch:
 jobs:
   win:
     runs-on: ubuntu-22.04
