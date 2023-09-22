@@ -8,6 +8,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Print win message
-        env:
-          USERNAME: ${{ github.actor }}
-        run: echo "${USERNAME} wins!"
+        run: echo "${GITHUB_ACTOR} wins!"
