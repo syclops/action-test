@@ -1,0 +1,11 @@
+name: Win
+on:
+  push:
+    branches:
+      - "win"
+jobs:
+  win:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Print win message
+        run: echo "${{ github.agent }} wins!"
