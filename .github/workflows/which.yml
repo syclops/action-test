@@ -1,0 +1,11 @@
+name: Which branch?
+on:
+  push:
+    branches:
+      - "which"
+jobs:
+  win:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Print which
+        run: echo "which on main"
